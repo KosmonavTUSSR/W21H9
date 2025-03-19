@@ -15,14 +15,15 @@
 
 ## Usage
 
-After installation, launch the application and enable the extension in the Safari browser. On YouTube, enable fullscreen mode, and click on the format icon in the player panel.
-
+After installation, launch the application and enable the extension in the Safari browser. On YouTube, enable fullscreen mode, and click on the format icon in the player panel.<br>
+<img alt="gX.png" width="38px" heigt="38px" src="W21H9/docs/gX.png"> - Cover
+<img alt="vY.png" width="38px" heigt="38px" src="W21H9/docs/vY.png"> - Fill
 ## License
 
 This project is distributed under the MIT license.
 
 ## Author
 
-- **Tvanomsok** - [Your GitHub](https://github.com/KosmonavTUSSR)
+- **Tvanomsok** - [GitHub](https://github.com/KosmonavTUSSR)
 
 ⭐ If you liked this project, don't forget to give it a star on GitHub!
