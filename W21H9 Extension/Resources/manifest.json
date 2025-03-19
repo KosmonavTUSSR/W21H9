@@ -1,15 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "W21H9",
+    "name": "YouTube UltraWide",
     "description": "Removes black bars on YouTube videos for ultrawide monitors",
     "version": "1.0",
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
-    "host_permissions": [
-        "*://*.youtube.com/*"
-    ],
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["*://*.youtube.com/*"],
     "content_scripts": [
         {
             "matches": ["*://*.youtube.com/watch*"],
