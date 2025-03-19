@@ -6,16 +6,16 @@
 //
 
 import Cocoa
+import SafariServices
 
 @main
+@objc(AppDelegate)
 class AppDelegate: NSObject, NSApplicationDelegate {
-
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // Override point for customization after application launch.
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: "com.apple.Safari.extension") { (state, error) in
+            if let error = error {
+                NSLog("Ошибка получения состояния расширения: \(error)")
+            }
+        }
     }
-
-    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
-        return true
-    }
-
 }

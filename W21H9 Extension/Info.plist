@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>script.js</string>
+				<string>content.js</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -30,7 +30,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>example.com</string>
+				<string>www.youtube.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>

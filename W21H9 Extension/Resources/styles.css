@@ -1,0 +1,23 @@
+.custom-btn {
+    background: #f00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.custom-btn:hover {
+    background: #c00;
+}
+
+.custom-btn svg {
+    width: 48px;
+    height: 48px;
+    margin-right: 5px; /* Отступ между иконкой и текстом */
+}
